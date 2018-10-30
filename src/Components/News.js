@@ -13,6 +13,19 @@ const News = props =>{
             <p>{props.date}</p>
             <a href={props.url} class="btn btn-primary">News</a>
         </div>
+        <div className="icon-card container">
+            <div className="row">
+                <div className="col-md-4 icon">
+                <i class="fas fa-heart"></i>
+                </div>
+                <div className="col-md-4 icon">
+                <i class="far fa-comment-alt"></i>
+                </div>
+                <div className="col-md-4 icon">
+                <i class="fas fa-share-alt"></i>
+                </div>
+            </div>
+        </div>
         </div>
     // {/* </div> */}
     );

@@ -13,3 +13,16 @@
 .col-sm{
     padding: 20px 0;
 }
+
+.icon{
+    text-align: center;
+    background: skyblue;
+}
+
+.icon-card{
+    padding-top: 0;
+}
+
+.icon i{
+    padding: 10px 0;
+}
